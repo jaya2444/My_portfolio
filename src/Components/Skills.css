@@ -1,0 +1,125 @@
+/* General Container Styling */
+.skills-container {
+    background-color: #1a1a1a; /* Dark background */
+    padding: 50px 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .skills-title {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ffffff; /* White text */
+  }
+  
+  .skills-description {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #cccccc; /* Light grey for description */
+  }
+  
+  /* Grid Layout */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 0 10px;
+  }
+  
+  /* Individual Card Styling */
+  .skills-card {
+    background-color: #2c2c2c; /* Dark card background */
+    border: 1px solid #444; /* Dark border */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Darker shadow */
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .skills-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5); /* Darker hover shadow */
+  }
+  
+  .skills-card h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #00bcd4; /* Cyan for degree title */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  /* Skill List Styling */
+  .skills-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Display skills in pairs of two */
+    gap: 20px;
+  }
+  
+  .skills-list span {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #ffffff; /* White text */
+    transition: background-color 0.3s, color 0.3s;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #444; /* Dark grey background */
+  }
+  
+  .skills-list span:hover {
+    background-color: #555; /* Lighter grey on hover */
+    color: #00bcd4; /* Cyan on hover */
+  }
+  
+  /* Icon Styling */
+  .skills-list span svg {
+    font-size: 26px;
+    transition: transform 0.3s ease;
+  }
+  
+  .skills-list span:hover svg {
+    transform: scale(1.2);
+  }
+  
+  /* Specific Icon Color Customization */
+  .skills-list span:nth-child(1) svg { color: #e34f26; }  /* HTML */
+  .skills-list span:nth-child(2) svg { color: #1572b6; }  /* CSS */
+  .skills-list span:nth-child(3) svg { color: #f7df1e; }  /* JavaScript */
+  .skills-list span:nth-child(4) svg { color: #61dbfb; }  /* React */
+  .skills-list span:nth-child(5) svg { color: #563d7c; }  /* Bootstrap */
+  .skills-list span:nth-child(6) svg { color: #38bdf8; }  /* Tailwind */
+  .skills-list span:nth-child(7) svg { color: #764abc; }  /* Redux */
+  .skills-list span:nth-child(8) svg { color: #764abc; }  /* Redux Toolkit */
+  .skills-list span:nth-child(1) svg { color: #68a063; }  /* Node.js */
+  .skills-list span:nth-child(2) svg { color: #000; }      /* Express */
+  .skills-list span:nth-child(3) svg { color: #47a248; }  /* MongoDB */
+  .skills-list span:nth-child(4) svg { color: #800080; }  /* Mongoose */
+  .skills-list span:nth-child(5) svg { color: #000; }      /* JWT Placeholder */
+  .skills-list span:nth-child(6) svg { color: #000; }      /* RESTful APIs Placeholder */
+  .skills-list span:nth-child(7) svg { color: #3776ab; }  /* Python */
+  .skills-list span:nth-child(1) svg { color: #f1502f; }  /* Git */
+  .skills-list span:nth-child(2) svg { color: #333; }      /* GitHub */
+  .skills-list span:nth-child(3) svg { color: #00c7b7; }  /* Netlify */
+  .skills-list span:nth-child(4) svg { color: #000; }      /* Vercel */
+  .skills-list span:nth-child(5) svg { color: #f0f0f0; }  /* Linux */
+  .skills-list span:nth-child(6) svg { color: #00a4ef; }  /* Windows */
+  .skills-list span:nth-child(7) svg { color: #007acc; }  /* VS Code */
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 768px) {
+    .skills-card h2 {
+      font-size: 20px;
+    }
+  
+    .skills-list {
+      grid-template-columns: 1fr;  /* On smaller screens, display skills in a single column */
+    }
+  
+    .skills-list span {
+      font-size: 16px;
+    }
+  }
+  

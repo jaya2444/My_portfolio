@@ -1,0 +1,50 @@
+/* Footer.css */
+
+.footer-container {
+    background-color: #1a1a1a; /* Dark background for a professional look */
+    padding: 2rem 1rem;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .footer-links {
+    margin-bottom: 1rem;
+  }
+  
+  .footer-links a {
+    color: #cccccc; /* Soft grey for links */
+    margin: 0 0.8rem;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links a:hover {
+    color: #1e90ff; /* Light blue on hover */
+  }
+  
+  .footer-social {
+    margin-bottom: 1rem;
+  }
+  
+  .footer-social a {
+    color: #cccccc; /* Soft grey for icons */
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-social a:hover {
+    color: #1e90ff; /* Light blue on hover */
+  }
+  
+  .footer-social i {
+    font-size: 1.5rem; /* Icon size */
+  }
+  
+  .footer-container p {
+    font-size: 0.9rem;
+    color: #888888; /* Lighter grey for copyright text */
+    margin-top: 1rem;
+  }
+  

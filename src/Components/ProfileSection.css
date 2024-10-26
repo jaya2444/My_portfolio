@@ -1,0 +1,286 @@
+.profile-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #131313;
+    color: white;
+  }
+  
+  .profile-info {
+    max-width: 50%;
+  }
+  
+  .profile-info h1 {
+    font-size: 48px;
+    margin: 10px 0;
+  }
+  
+  .profile-info h3 {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+  .highlight {
+    color: #c74bfa;
+  }
+  
+  .profile-info p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  
+  .resume-btn {
+    background-color: #c74bfa;
+    padding: 15px 30px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  
+  .profile-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #131313;
+    color: white;
+}
+
+.profile-info {
+    max-width: 50%;
+}
+
+.profile-info h1 {
+    font-size: 48px;
+    margin: 10px 0;
+}
+
+.profile-info h3 {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.highlight {
+    color: #c74bfa;
+}
+
+.profile-info p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.resume-btn {
+    background-color: #c74bfa;
+    padding: 15px 30px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.profile-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background-color: #131313;
+  color: white;
+}
+
+.profile-info {
+  max-width: 50%;
+}
+
+.profile-info h1 {
+  font-size: 48px;
+  margin: 10px 0;
+}
+
+.profile-info h3 {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.highlight {
+  color: #c74bfa;
+}
+
+.profile-info p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.resume-btn {
+  background-color: #c74bfa;
+  padding: 15px 30px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.profile-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background-color: #131313;
+  color: white;
+}
+
+.profile-info {
+  max-width: 50%;
+}
+
+.profile-info h1 {
+  font-size: 48px;
+  margin: 10px 0;
+}
+
+.profile-info h3 {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.highlight {
+  color: #c74bfa;
+}
+
+.profile-info p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.resume-btn {
+  background-color: #c74bfa;
+  padding: 15px 30px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.profile-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background-color: #131313;
+  color: white;
+}
+
+.profile-info {
+  max-width: 50%;
+}
+
+.profile-info h1 {
+  font-size: 48px;
+  margin: 10px 0;
+}
+
+.profile-info h3 {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.highlight {
+  color: #c74bfa;
+}
+
+.profile-info p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.resume-btn {
+  background-color: #c74bfa;
+  padding: 15px 30px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.profile-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background-color: #131313;
+  color: white;
+}
+
+.profile-info {
+  max-width: 50%;
+}
+
+.profile-info h1 {
+  font-size: 48px;
+  margin: 10px 0;
+}
+
+.profile-info h3 {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.highlight {
+  color: #c74bfa;
+}
+
+.profile-info p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.resume-btn {
+  background-color: #c74bfa;
+  padding: 15px 30px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* Profile Image Styling */
+.profile-image {
+  position: relative;
+  width: 340px; /* Increased size */
+  height: 340px; /* Increased size */
+  border-radius: 50%;
+  overflow: hidden; /* Ensures the image fits in the border */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 6px solid transparent; /* Set initial border size */
+  background: linear-gradient(white, white) padding-box, 
+              conic-gradient(
+                  #c74bfa,
+                  #4b8dfa,
+                  #c74bfa
+              ) border-box; /* Gradient border */
+}
+
+/* Image itself */
+.profile-image img {
+  width: 100%; /* Slightly larger than 100% to show more of the head */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Ensures the image fills the border */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  top: 2rem;
+}
+
+.profile-image:hover img {
+  transform: scale(1.05); /* Slight enlargement on hover */
+  box-shadow: 0 0 20px rgba(199, 75, 250, 0.6); /* Glow effect on hover */
+}
+

@@ -1,0 +1,64 @@
+/* Education.css */
+
+.education-section {
+    background-color: #1a1a1a; /* Dark background */
+    color: #ffffff; /* White text */
+    padding: 2rem 3rem; /* Increased horizontal padding */
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    width: 100%; /* Full width */
+    box-sizing: border-box; /* Ensure padding doesn’t increase width */
+  }
+  
+  .education-section h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #e0e0e0; /* Light grey for heading */
+  }
+  
+  .education-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem; /* Space between education entries */
+  }
+  
+  .education-entry {
+    background-color: #2a2a2a; /* Slightly lighter than main background */
+    padding: 1.5rem;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    max-width: 900px; /* Increased maximum width */
+    margin: 0 auto; /* Center the entries */
+    width: 100%; /* Allow entry to take full width up to max-width */
+  }
+  
+  .education-entry:hover {
+    transform: scale(1.02); /* Subtle hover effect */
+  }
+  
+  .education-entry h3 {
+    font-size: 1.5rem;
+    color: #1e90ff; /* Blue for degree title */
+    margin-bottom: 0.5rem;
+  }
+  
+  .institution {
+    font-size: 1.2rem;
+    color: #cccccc; /* Light grey for institution name */
+    margin-bottom: 0.3rem;
+  }
+  
+  .year {
+    font-size: 0.9rem;
+    color: #888888; /* Lighter grey for year */
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .description {
+    font-size: 1rem;
+    color: #dddddd; /* Grey for description text */
+    line-height: 1.5;
+  }
+  

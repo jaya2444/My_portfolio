@@ -1,0 +1,73 @@
+/* ContactForm.css */
+
+.contact-container {
+    background-color: #1a1a1a; /* Dark background */
+    color: #ffffff; /* White text for readability */
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 2rem auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  .contact-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact-subtitle {
+    font-size: 1.2rem;
+    color: #cccccc; /* Light grey subtitle */
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .contact-form .form-group {
+    margin-bottom: 1.2rem;
+  }
+  
+  .contact-form label {
+    font-size: 1rem;
+    color: #dddddd; /* Slightly lighter than container color */
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    background-color: #333333; /* Dark grey input background */
+    border: 1px solid #555555; /* Border to define fields */
+    border-radius: 4px;
+    color: #ffffff; /* White text for inputs */
+    outline: none;
+  }
+  
+  .form-control::placeholder {
+    color: #888888; /* Placeholder text color */
+  }
+  
+  .form-control:focus {
+    border-color: #1e90ff; /* Blue border on focus */
+  }
+  
+  .send-btn {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #1e90ff; /* Blue send button */
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .send-btn:hover {
+    background-color: #0073e6; /* Darker blue on hover */
+  }
+  
